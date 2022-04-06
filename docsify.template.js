@@ -21,6 +21,7 @@ module.exports = options => {
       <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
       <link rel="stylesheet" href="${options.stylesheet}">
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
     </head>
     
     <body>
@@ -31,6 +32,7 @@ module.exports = options => {
       <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
       <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
       <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
     </body>
     
     </html>`;
